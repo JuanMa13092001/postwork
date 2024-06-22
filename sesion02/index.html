@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sesion 02</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playwrite+NG+Modern:wght@100..400&display=swap" 
+rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+NG+Modern:wght@100..400&display=swap"
+ rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <h1>Diferencia entre px y rem como unidades de medida</h1>
+        <h2>PX</h2>
+        <p>Los píxeles son unidades fijas y no cambian en función de otros factores por lo tanto
+            un valor en píxeles se ve igual en todas partes, sin importar la configuración
+             del documento o la escala del dispositivo.</p>
+        <h2>REM</h2>
+        <p>Ahora bien, un REM es una medida relativa al tamaño de la fuente del elemento raíz
+             por lo general esta normalmente en el elemento `< html >` </p>
+
+        <p>Un ejemplo si el tamaño fuente del elemento raiz es de 16 pixeles, debemos de multiplicar
+            la cantidad de rem por el tamaño fuente para estruturar el tamaño
+        </p>
+        <p> <br>
+            html { <br>
+                font-size: 16px; /* 1 rem = 16px */ <br>
+              }<br>
+              
+              .box {<br>
+                width: 6.25rem; /* 100px / 16px = 6.25rem */<br>
+                height: 3.125rem; /* 50px / 16px = 3.125rem */<br>
+              }<br>
+              
+        </p>
+      </header>
+</body>
+</html>
