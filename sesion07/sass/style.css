@@ -67,12 +67,12 @@ body {
 }
 
 .down-block {
-  border: 1px solid black;
   display: flex;
   justify-content: space-around;
   margin: 0rem 6rem;
   background-color: #025157;
   border-radius: 10px;
+  flex-wrap: wrap;
 }
 .down-block .info {
   width: 30%;

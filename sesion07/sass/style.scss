@@ -1,6 +1,4 @@
-$color_secundario:#025157;
-$color_primario:#96D178;
-$background_color: #FFFBF7;
+@import "variables";
 
 body{
     background-color: $background_color;
@@ -76,12 +74,12 @@ body{
 }
 
 .down-block{
-    border: 1px solid black;
     display: flex;
     justify-content: space-around;
     margin: 0rem 6rem;
     background-color: $color_secundario;
     border-radius: 10px;
+    flex-wrap: wrap;
 
     .info{
         width: 30%;
